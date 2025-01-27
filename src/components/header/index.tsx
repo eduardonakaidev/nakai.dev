@@ -4,7 +4,7 @@ import { NavBar } from "../navbar";
 export function HeaderApp(){
     return(
         <header className="w-full flex flex-row justify-between p-10 ">
-            <Image src={NakaiDevIcon} alt="nakai-dev-icon" className="w-44"/>
+            <h1 className="font-serif text-4xl font-normal">Nakai.Dev</h1>
             <NavBar/>
         </header>
     )
