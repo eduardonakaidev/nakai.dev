@@ -9,10 +9,11 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        epilogue: ['Epilogue', 'sans-serif'], // Define a fonte personalizada
+        epilogue: ['Epilogue', 'sans-serif'],
       },
       colors: {
-        gray_theme: '#2D2D2D', // Altere o nome conforme necessário
+        gray_theme: '#2D2D2D',
+        white_input: '#F3F3F3', 
       },
     },
   },
