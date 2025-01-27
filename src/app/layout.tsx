@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
        <ProviderReactQuery>
-      <body className={`${epilogue.className} font-epilogue flex flex-col gap-24`}>
+      <body className={`${epilogue.className} font-epilogue flex flex-col `}>
         <HeaderApp />
         {children}
       </body>
