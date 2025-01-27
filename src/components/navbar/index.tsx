@@ -4,13 +4,13 @@ export function NavBar(){
     return(
         <>
         <nav className="gap-6 sm:flex flex-row hidden">
-            <Link href="">
+            <Link href="#about">
             About
             </Link>
             <Link href="">
             Work
             </Link>
-            <Link href="">
+            <Link href="#contact">
             Contact
             </Link>
         </nav>
