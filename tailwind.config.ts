@@ -8,9 +8,11 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        epilogue: ['Epilogue', 'sans-serif'], // Define a fonte personalizada
+      },
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        gray_theme: '#2D2D2D', // Altere o nome conforme necessário
       },
     },
   },
