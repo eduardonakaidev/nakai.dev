@@ -1,7 +1,3 @@
-import LinkedinLogo from "@/assets/logo-linkedin.svg"
-import GithubLogo from "@/assets/logo-github.svg"
-import InstagramLogo from "@/assets/logo-instagram.svg"
-import Image from "next/image"
 import Link from "next/link"
 import {GithubIcon,InstagramIcon,LinkedinIcon} from "lucide-react"
 export function SocialBar() {
