@@ -2,7 +2,6 @@ import { Metadata } from "next";
 import "./globals.css";
 import { HeaderApp } from "@/components/header";
 import { Epilogue } from 'next/font/google';
-import { ProviderReactQuery } from "@/libs/react-query/provider-react-query";
 import { ThemeProvider } from "@/components/theme-provider";
 
 export const metadata: Metadata = {
@@ -26,12 +25,10 @@ export default function RootLayout({
         enableSystem
         disableTransitionOnChange
       >
-        <ProviderReactQuery>
           <body className={`${epilogue.className} font-epilogue flex flex-col `}>
             <HeaderApp />
             {children}
           </body>
-        </ProviderReactQuery>
       </ThemeProvider>
     </html>
   );
