@@ -22,8 +22,8 @@ export default function WorkComponent({ title, description, ImageComponent, url 
                     className="h-80 w-[420px]  object-cover"
                 />
                 <div className="flex flex-col gap-2">
-                    <h4 className="font-epilogue font-semibold text-xl text-gray_theme">{title}</h4>
-                    <p className="font-epilogue font-normal text-base text-gray_theme">{description}</p>
+                    <h4 className="font-epilogue font-semibold text-xl text-gray_theme dark:text-white">{title}</h4>
+                    <p className="font-epilogue font-normal text-base text-gray_theme dark:text-white">{description}</p>
                 </div>
             </div>
         </Link>

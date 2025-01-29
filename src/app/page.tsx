@@ -7,12 +7,11 @@ export default function Home() {
 
 
   return (
-    <main className="w-full text-black flex flex-col gap-24">
+    <main className="w-full text-black dark:text-white flex flex-col gap-24">
       <WelcomeSection />
       <StacksCarousel />
-      <WorksSection/>
+      <WorksSection />
       <FooterBar />
-    
     </main>
   );
 }

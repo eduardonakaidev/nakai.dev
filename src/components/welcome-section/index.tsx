@@ -11,8 +11,8 @@ export function WelcomeSection() {
                     <p className="font-epilogue font-normal text-xl">Hello World!!</p>
                     <p className="font-epilogue font-normal text-xl">Welcome my portfolio</p>
                 </div>
-                <Link href="#contact" className="bg-gray_theme w-fit flex items-center justify-center px-16 py-6">
-                    <p className="text-white font-medium text-xl font-epilogue">Contact</p>
+                <Link href="#contact" className="bg-gray_theme dark:bg-white w-fit flex items-center justify-center px-16 py-6">
+                    <p className="text-white dark:text-bg_dark font-medium text-xl font-epilogue">Contact</p>
                 </Link>
             </div>
             <div className="w-1/2 h-fit flex-col items-center justify-center gap-8 hidden sm:flex">

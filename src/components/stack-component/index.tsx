@@ -6,7 +6,7 @@ export interface StackComponentProps {
 }
 export function StackComponent({ image, title }: StackComponentProps) {
     return (
-        <div className="bg-gray_theme flex flex-row gap-4 items-center p-6 rounded-lg min-w-48 max-w-full">
+        <div className="bg-gray_theme dark:bg-white flex flex-row gap-4 items-center p-6 rounded-lg min-w-48 max-w-full">
             <Image
                 src={image.src}
                 alt={title}
@@ -15,7 +15,7 @@ export function StackComponent({ image, title }: StackComponentProps) {
                 className="w-8 h-8"
             />
             <div className="flex-1">
-                <p className="mt-2 text-center w-full text-white font-bold text-base break-words">
+                <p className="mt-2 text-center w-full dark:text-bg_dark text-white font-bold text-base break-words">
                     {title}
                 </p>
             </div>

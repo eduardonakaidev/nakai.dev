@@ -18,10 +18,10 @@ export function FooterBar() {
 
                 <div className="w-full sm:w-1/3 ">
                     <form className="flex flex-col gap-3">
-                        <input type="text" name="" id="" className="w-full h-fit font-epilogue font-normal text-base px-6 py-4 bg-white_input" placeholder="Name" />
-                        <input type="email" name="" id="" className="w-full h-fit font-epilogue font-normal text-base px-6 py-4 bg-white_input" placeholder="Email" />
+                        <input type="text" name="" id="" className="w-full h-fit font-epilogue font-normal text-base px-6 py-4 bg-white_input dark:bg-gray_theme dark:text-white" placeholder="Name" />
+                        <input type="email" name="" id="" className="w-full h-fit font-epilogue font-normal text-base px-6 py-4 bg-white_input dark:bg-gray_theme dark:text-white" placeholder="Email" />
                         <input
-                            className="w-full sm:w-fit bg-gray_theme text-white flex items-center justify-center px-12 sm:px-16 py-4 sm:py-6 font-epilogue font-semibold text-base sm:text-xl mt-6"
+                            className="w-full sm:w-fit bg-gray_theme text-white dark:bg-white dark:text-bg_dark flex items-center justify-center px-12 sm:px-16 py-4 sm:py-6 font-epilogue font-semibold text-base sm:text-xl mt-6"
                             type="submit"
                             value="Submit"
                             title="Submit"
